@@ -1,0 +1,7 @@
+Build main-bundle.js
+webpack --config=config/webpack.dev.js
+
+Serve with webpack-dev-server
+webpack-dev-server --config=config/webpack.dev.js
+
+Now, it runs on localhost:8080
