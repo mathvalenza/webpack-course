@@ -1,4 +1,4 @@
-## Webpack course from Udemy [(see here)](https://www.udemy.com/course/webpack-beyond-the-basics)
+## Webpack course from [Udemy](https://www.udemy.com/course/webpack-beyond-the-basics)
 
 ### Building main-bundle.js
 
