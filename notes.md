@@ -16,7 +16,7 @@ Now, it runs on **localhost:8080**.
 
 ## CSS Loaders
 
-### webpack doesn't know every languages, it just know JS
+### webpack doesn't know every languages, it just knows JS
 
 So we need an appropriete loader to handle other types of files
 
