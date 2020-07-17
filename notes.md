@@ -27,3 +27,7 @@ So we need an appropriete loader to handle other types of files
 Running `webpack-dev-server` again, we can see `main.css` was included as **built**
 
 Also, we can see the `main.css` content in `style` tag inside `head` inside the DOM
+
+## Better Errors and Loaders for HTML & Images
+
+### add `overlay: true` propery inside devServer config displays syntax error inside the browser
