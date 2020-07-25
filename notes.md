@@ -30,4 +30,6 @@ Also, we can see the `main.css` content in `style` tag inside `head` inside the 
 
 ## Better Errors and Loaders for HTML & Images
 
+### using file-loader, extract-loader and html-loader for .html files, style-loader and css-loader for .css files and file-loader for images
+
 ### add `overlay: true` propery inside devServer config displays syntax error inside the browser
