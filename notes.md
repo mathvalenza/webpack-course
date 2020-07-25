@@ -30,4 +30,14 @@ Also, we can see the `main.css` content in `style` tag inside `head` inside the 
 
 ## Better Errors and Loaders for HTML & Images
 
+### using file-loader, extract-loader and html-loader for .html files, style-loader and css-loader for .css files and file-loader for images
+
 ### add `overlay: true` propery inside devServer config displays syntax error inside the browser
+
+## Babel Basics
+
+### Babel is a transpiler that let our application run in several browsers (turning new syntax usable in the old ones). There is a [try it out session](https://babeljs.io/repl#?browsers=defaults%2C%20not%20ie%2011%2C%20not%20ie_mob%2011&build=&builtIns=false&spec=false&loose=false&code_lz=MYewdgzgLgBAHjAvDAngfgHRwNwyA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=env%2Creact%2Cstage-2%2Cenv&prettier=false&targets=&version=7.10.5&externalPlugins=)
+
+### install babel-core
+
+### .babelrc file will contain babel rules and plugins
