@@ -40,4 +40,4 @@ Also, we can see the `main.css` content in `style` tag inside `head` inside the 
 
 ### install babel-core
 
-### .babelrc file will contain babel rules
+### .babelrc file will contain babel rules and plugins
