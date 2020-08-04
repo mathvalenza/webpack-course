@@ -41,3 +41,9 @@ Also, we can see the `main.css` content in `style` tag inside `head` inside the 
 ### install babel-core
 
 ### .babelrc file will contain babel rules and plugins
+
+## Babel pollyfils, transforms & presets
+
+### `npm install babel-plugin-async-to-promises` allows us to use `async / await` syntax because babel translates it in `Promises / .then` syntax. But not every browsers suports Promises, that's why we need `babel-polyfill`
+
+### babel-polyfill is placed in main entry inside `webpack.dev.js`. Important: it increases main.bundle.js size so it is a good practice import only the exact polyfill we need

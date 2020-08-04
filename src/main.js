@@ -1,6 +1,6 @@
 require('./main.css');
 require('./index.html');
 
-const x = () => {
-  console.log('Inside arrow function');
+const x = async () => {
+  await console.log('Inside arrow function');
 };
