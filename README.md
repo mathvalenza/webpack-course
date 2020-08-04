@@ -2,10 +2,10 @@
 
 ### Building main-bundle.js
 
-`webpack --config=config/webpack.dev.js`
+`webpack --config=config/webpack.dev.js or npm build`
 
 ### Serving with webpack-dev-server
 
-`webpack-dev-server --config=config/webpack.dev.js`
+`webpack-dev-server --config=config/webpack.dev.js or npm start`
 
 Now, it runs on **localhost:8080**.
