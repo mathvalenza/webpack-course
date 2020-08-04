@@ -39,3 +39,15 @@ Also, we can see the `main.css` content in `style` tag inside `head` inside the 
 ### Babel is a transpiler that let our application run in several browsers (turning new syntax usable in the old ones). There is a [try it out session](https://babeljs.io/repl#?browsers=defaults%2C%20not%20ie%2011%2C%20not%20ie_mob%2011&build=&builtIns=false&spec=false&loose=false&code_lz=MYewdgzgLgBAHjAvDAngfgHRwNwyA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=env%2Creact%2Cstage-2%2Cenv&prettier=false&targets=&version=7.10.5&externalPlugins=)
 
 ### `.babelrc` file will contain babel rules and plugins
+
+### install babel-core
+
+### .babelrc file will contain babel rules and plugins
+
+## Babel pollyfils, transforms & presets
+
+### `npm install babel-plugin-async-to-promises` allows us to use `async / await` syntax because babel translates it in `Promises / .then` syntax. But not every browsers suports Promises, that's why we need `babel-polyfill`
+
+### babel-polyfill is placed in main entry inside `webpack.dev.js`. Important: it increases main.bundle.js size so it is a good practice import only the exact polyfill we need
+
+### We can also add a preset by doing `npm install babel-preset-env`. Its config overrides plugins config in `.babelrc` file
